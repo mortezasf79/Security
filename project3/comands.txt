@@ -1,0 +1,14 @@
+ایجاد
+python passmanager.py newpass uniportal -c "pass for my aut portal" -key 1234
+
+نمایش اطلاعات یک رمز خاص با استفاده از نام آن:
+python passmanager.py sel mellat
+
+بروزرسانی و تغییر یک رمز خاص:
+python passmanager.py update mellat –key 4321
+
+حذف یک رمز خاص با استفاده از نام آن:
+python passmanager.py del mellat
+
+نمایش تمامی اسامی رمز های کاربر:
+python passmanager.py showpass
